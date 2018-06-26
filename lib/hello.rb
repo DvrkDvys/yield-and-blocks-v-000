@@ -1,6 +1,6 @@
 def hello_t(arr)
   if arr.any? ==flase
-    puts "Hey! No block was given!\n"
+    # puts "Hey! No block was given!\n"
     return "Hey! No block was given!\n"
   else
   arr.each do |name| puts name
