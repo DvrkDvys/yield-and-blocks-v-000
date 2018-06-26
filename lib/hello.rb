@@ -15,5 +15,5 @@ end
 #     expect{ hello_t(other_names){ |name| puts name.upcase } }
 #       .to output("ALI\nJASMINE\nPERSEPHONE\n")
 #      
-.to_stdout
+# .to_stdout
 #   end
