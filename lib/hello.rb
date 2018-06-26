@@ -1,5 +1,5 @@
 def hello_t(arr)
-  arr.each |name| puts name
+  arr.each do |name| puts name
 end
 
 # call your method here!
