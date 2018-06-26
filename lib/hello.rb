@@ -2,7 +2,9 @@ def hello_t(arr)
   if block_given? == false
     puts "Hey! No block was given!\n"
   elsif arr.each do |name| puts name
-  else yield
+  
+  else 
+    yield
   end
 end
 
