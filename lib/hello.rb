@@ -1,5 +1,5 @@
 def hello_t(arr)
-  if arr.any? == false
+  if block_given? == false
     # puts "Hey! No block was given!\n"
     return "Hey! No block was given!\n"
   else
