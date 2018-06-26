@@ -1,12 +1,12 @@
 def hello_t(arr)
   yield(arr)
-  # if block_given? == false
-  #   puts "Hey! No block was given!\n"
+  if block_given? == false
+    puts "Hey! No block was given!\n"
   # # elsif bloc
   # else
   # arr.each do |name| puts name
   # end
-  # end
+  end
 end
 
 #   it "is not hard-coded" do
