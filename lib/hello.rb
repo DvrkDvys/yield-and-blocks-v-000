@@ -4,7 +4,6 @@ def hello_t(arr)
   elsif arr.each do |name| puts name
   else yield
   end
-  end
 end
 
 #   it "is not hard-coded" do
