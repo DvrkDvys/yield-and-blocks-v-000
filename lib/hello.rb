@@ -1,4 +1,5 @@
 def hello_t(arr)
+  if arr == nil
   arr.each do |name| puts name
   end
 end
