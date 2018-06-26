@@ -2,7 +2,7 @@ def hello_t(arr)
   if block_given? == false
     puts "Hey! No block was given!\n"
   elsif block_given? == true 
-    yield(arr)
+    puts yield(arr)
 
   # # elsif bloc
   # else
