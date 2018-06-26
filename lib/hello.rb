@@ -1,7 +1,9 @@
 def hello_t(arr)
-  yield(arr)
   if block_given? == false
     puts "Hey! No block was given!\n"
+  elsif block_given? == true 
+    yield(arr)
+
   # # elsif bloc
   # else
   # arr.each do |name| puts name
