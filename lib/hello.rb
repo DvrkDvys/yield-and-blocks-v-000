@@ -1,5 +1,7 @@
 def hello_t(arr)
-  if arr == nil
+  if arr == []
+    puts "Hey! No block was given!\n"
+  else
   arr.each do |name| puts name
   end
 end
